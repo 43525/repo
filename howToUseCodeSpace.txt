@@ -1,0 +1,21 @@
+AI Overview
+To utilize GitHub Codespaces with a GitHub repository, follow these steps:
+Navigate to Your Repository: Open your desired GitHub repository in your web browser.
+Create a Codespace:
+Click the green "Code" button.
+Select the "Codespaces" tab.
+Click "Create codespace on [branch name]" (e.g., "Create codespace on main").
+You can also choose "New with options" to customize the machine type, region, and dev container configuration if multiple are defined in your repository.
+Codespace Setup:
+GitHub will provision a cloud-based development environment (a codespace) and open it in a web-based VS Code editor.
+The repository's code will be cloned into the /workspaces directory within the codespace.
+Develop within the Codespace:
+You can now interact with your code, run commands in the integrated terminal, and use the full features of VS Code within your browser.
+If your project requires specific tools or configurations, ensure you have a .devcontainer folder in your repository defining the development environment.
+Commit and Push Changes:
+As you modify your code, use the source control features within the codespace to commit your changes and push them back to your GitHub repository.
+Optional: Using Codespaces with VS Code Desktop
+You can also connect to a GitHub Codespace from your local VS Code application: 
+Install the GitHub Codespaces Extension: Install the "GitHub Codespaces" extension from the VS Code Marketplace.
+Connect to GitHub: In the Remote Explorer sidebar, select "GitHub Codespaces" and sign in to your GitHub account.
+Create or Open a Codespace: You can then create a new codespace or open an existing one directly from your local VS Code instance.
