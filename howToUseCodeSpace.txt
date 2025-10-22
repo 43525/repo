@@ -19,3 +19,16 @@ You can also connect to a GitHub Codespace from your local VS Code application:
 Install the GitHub Codespaces Extension: Install the "GitHub Codespaces" extension from the VS Code Marketplace.
 Connect to GitHub: In the Remote Explorer sidebar, select "GitHub Codespaces" and sign in to your GitHub account.
 Create or Open a Codespace: You can then create a new codespace or open an existing one directly from your local VS Code instance.
+
+
+AI Overview
+There are several methods to exit or stop a Codespace in GitHub:
+1. From within the Codespace (VS Code Interface):
+Using the Command Palette:
+Open the Command Palette by pressing Ctrl + Shift + P (Windows/Linux) or Shift + Command + P (Mac).
+Type Codespaces: stop and select "Codespaces: Stop Current Codespace" from the options.
+Using the Codespaces Button:
+Click the "Codespaces" button located in the bottom-left corner of the VS Code status bar.
+Select "Stop Current Codespace" from the menu that appears. 
+
+---
